@@ -1,0 +1,53 @@
+.castList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.castList .castItem {
+  width: 150px;
+  height: 310px;
+  border: 1px solid #daa520;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.castList .castItem .name {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.castList .castItem .image {
+  width: 150px;
+  max-height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.castList .castItem .character {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.noInfo {
+  color: red;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

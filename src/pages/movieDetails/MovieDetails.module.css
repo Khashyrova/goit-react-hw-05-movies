@@ -1,0 +1,32 @@
+.backButton {
+  margin-left: 5%;
+  margin-top: 10px;
+  width: 200px;
+  height: 30px;
+  border-style: none;
+  border: 1px solid #808080;
+  border-radius: 5px;
+  background-color: #daa520;
+}
+
+.backButton .btnLink {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+}
+
+.detailsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 20px;
+}

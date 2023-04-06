@@ -1,0 +1,47 @@
+.main {
+  background-color: rgba(128, 128, 128, 0.8);
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.main h1 {
+  color: whitesmoke;
+  font-size: 12.5rem;
+  letter-spacing: 0.1em;
+  margin: 0.025em 0;
+  text-shadow: 0.05em 0.05em 0 rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+.main h1 > span {
+  -webkit-animation: spooky 2s alternate infinite linear;
+  animation: spooky 2s alternate infinite linear;
+  color: red;
+  display: inline-block;
+}
+
+.main h2 {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.4em;
+}
+
+.main p {
+  color: #ccc;
+  margin-top: 0;
+}
